@@ -12,3 +12,93 @@ section h2 {
   max-height: 200px;
   object-fit: cover;
 }
+
+body {
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  background: #f4f8fb;
+  color: #222;
+}
+
+header {
+  background-image: linear-gradient(120deg, #007bff 0%, #00a6ff 100%);
+  box-shadow: 0 4px 24px rgba(0, 123, 255, 0.08);
+}
+
+section h2 {
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #007bff;
+  letter-spacing: 1px;
+}
+
+.card {
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 32px rgba(0,123,255,0.15);
+}
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.btn {
+  border-radius: 30px;
+  font-weight: 600;
+  padding: 0.6rem 2rem;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.btn-light {
+  background: #fff;
+  color: #007bff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.btn-light:hover {
+  background: #007bff;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0,123,255,0.12);
+}
+
+nav.navbar {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+section {
+  border-radius: 18px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+}
+
+#about {
+  background: #eaf6ff;
+}
+
+#projects {
+  background: #fff;
+}
+
+#certifications {
+  background: #eaf6ff;
+}
+
+#contact {
+  background: #fff;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 24px 0 12px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  border-radius: 18px 18px 0 0;
+}
