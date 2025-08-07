@@ -1,0 +1,10 @@
+yeriel-portfolio/
+│
+├── index.html
+├── css/
+│   └── styles.css
+├── assets/
+│   ├── images/
+│   └── pdf/
+│       └── Yeriel-Gonzalez-Resume.pdf
+

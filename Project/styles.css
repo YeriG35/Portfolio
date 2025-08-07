@@ -1,0 +1,14 @@
+body {
+  scroll-behavior: smooth;
+}
+header {
+  background-image: linear-gradient(to right, #007bff, #00a6ff);
+}
+section h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
