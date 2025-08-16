@@ -9,10 +9,10 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
     <div class="container">
-      <a class="navbar-brand" href="#">Yeriel Gonzalez</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+      <a class="navbar-brand fw-bold" href="#">Yeriel Gonzalez</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navLinks">
@@ -29,46 +29,53 @@
   <!-- Hero -->
   <header class="bg-primary text-white text-center py-5">
     <div class="container">
-      <h1 class="display-4">Transforming Data into Decisions</h1>
+      <h1 class="display-4 fw-bold">Transforming Data into Decisions</h1>
       <p class="lead">Business Intelligence Analyst | Power BI | SQL | Azure AI</p>
-      <a href="assets/pdf/yeriel-gonz-resume.pdf" class="btn btn-light mt-3" download>Download Resume</a>
+      <a href="assets/pdf/yeriel-gonz-resume.pdf" class="btn btn-light mt-3" download="Yeriel_Gonzalez_Resume.pdf">
+        📄 Download Resume
+      </a>
     </div>
   </header>
 
   <!-- About -->
   <section id="about" class="py-5 bg-light">
     <div class="container">
-      <h2>About Me</h2>
-      <p>Hi! I'm Yeriel Gonzalez, this is my portfolio showcasing my work as a Business Intelligence Analyst.</p>
+      <h2 class="fw-bold mb-3">About Me</h2>
+      <p class="fs-5">
+        Hi! I'm <strong>Yeriel Gonzalez</strong>, and this is my portfolio showcasing my work as a Business Intelligence Analyst.
+        I hold a BBA in IT Systems and have over 2 years of experience at X-Fab. My expertise includes designing impactful
+        Power BI dashboards, writing advanced SQL queries, and leveraging Azure AI services to deliver data-driven insights that
+        solve real-world business challenges.
+      </p>
     </div>
   </section>
 
   <!-- Projects -->
   <section id="projects" class="py-5">
     <div class="container">
-      <h2 class="mb-4">Highlighted Projects</h2>
+      <h2 class="fw-bold mb-4">Highlighted Projects</h2>
       <div class="row g-4">
+        
         <div class="col-md-6">
-          <div class="card h-100">
-            <img src="assets/images/powerbi-dashboard.png" class="card-img-top" alt="Power BI Dashboard" />
+          <div class="card h-100 shadow-sm border-0">
+            <img src="assets/images/powerbi-dashboard-placeholder1.png" class="card-img-top" alt="Power BI Dashboard Preview" />
             <div class="card-body">
-              <h5 class="card-title">Operations Dashboard (X-Fab)</h5>
-              <p class="card-text">Created a live Power BI dashboard integrating multiple data sources to track KPIs and performance across departments.</p>
+              <h5 class="card-title fw-bold">Operations Dashboard (X-Fab)</h5>
+              <p class="card-text">Interactive Power BI dashboard integrating multiple data sources to track KPIs and performance across departments.</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-6">
-          <div class="card h-100">
-            <img src="assets/images/sql-etl.png" class="card-img-top" alt="SQL ETL Process" />
+          <div class="card h-100 shadow-sm border-0">
+            <img src="assets/images/powerbi-dashboard-placeholder2.png" class="card-img-top" alt="SQL ETL Process" />
             <div class="card-body">
-              <h5 class="card-title">SQL ETL & Data Cleaning</h5>
-              <p class="card-text">Built an automated SQL pipeline to ingest and clean data from 5+ sources.</p>
+              <h5 class="card-title fw-bold">Spotify Music Insights Dashboard</h5>
+              <p class="card-text">Power BI dashboard analyzing artist popularity, streaming trends, and playlist impact using real-world data.</p>
             </div>
           </div>
         </div>
         
-        <!-- Add more project cards as needed -->
       </div>
     </div>
   </section>
@@ -76,8 +83,8 @@
   <!-- Certifications -->
   <section id="certifications" class="py-5 bg-light">
     <div class="container">
-      <h2>Certifications</h2>
-      <ul>
+      <h2 class="fw-bold mb-3">Certifications</h2>
+      <ul class="fs-5">
         <li>Microsoft Certified: Azure AI Fundamentals (AI-900) — 2025</li>
         <!-- Add more certs here -->
       </ul>
@@ -87,17 +94,15 @@
   <!-- Contact -->
   <section id="contact" class="py-5">
     <div class="container">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:equinox1105@outlook.com">equinox1105@outlook.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/yeriel-gonzalez-b0b895183/" target="_blank">View Profile</a></p>
-      <p>GitHub: <a href="https://github.com/YOUR_USERNAME" target="_blank">View Projects</a></p>
+      <h2 class="fw-bold mb-3">Contact Me</h2>
+      <p class="fs-5">📧 Email: <a href="mailto:equinox1105@outlook.com">equinox1105@outlook.com</a></p>
+      <p class="fs-5">🔗 LinkedIn: <a href="https://www.linkedin.com/in/yeriel-gonzalez-b0b895183/" target="_blank">View Profile</a></p>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
-    <footer>
-      <small>&copy; 2025 Yeriel Gonzalez. All rights reserved.</small>
-    </footer>
+    <small>&copy; 2025 Yeriel Gonzalez. All rights reserved.</small>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
