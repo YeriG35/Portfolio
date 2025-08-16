@@ -31,7 +31,7 @@
     <div class="container">
       <h1 class="display-4 fw-bold">Transforming Data into Decisions</h1>
       <p class="lead">Business Intelligence Analyst | Power BI | SQL | Azure AI</p>
-      <a href="assets/pdf/yeriel-gonz-resume.pdf" class="btn btn-light mt-3" download="Yeriel_Gonzalez_Resume.pdf">
+      <a href="assets/pdf/yeriel-gonz-resume.pdf" class="btn btn-light mt-3" download>
         📄 Download Resume
       </a>
     </div>
@@ -56,22 +56,47 @@
       <h2 class="fw-bold mb-4">Highlighted Projects</h2>
       <div class="row g-4">
         
+        <!-- Sample Sales Dashboard -->
         <div class="col-md-6">
           <div class="card h-100 shadow-sm border-0">
-            <img src="assets/images/powerbi-dashboard-placeholder1.png" class="card-img-top" alt="Power BI Dashboard Preview" />
+            <img src="assets/images/SampleDashboardScreenshot.png" class="card-img-top" alt="Sample Power BI Dashboard" />
             <div class="card-body">
-              <h5 class="card-title fw-bold">Operations Dashboard (X-Fab)</h5>
-              <p class="card-text">Interactive Power BI dashboard integrating multiple data sources to track KPIs and performance across departments.</p>
+              <h5 class="card-title fw-bold">Sample Sales Dashboard</h5>
+              <p class="card-text">Interactive Power BI dashboard integrating multiple data sources to track KPIs and sales performance.</p>
+              <a href="assets/pbix/SampleDash.pbix" class="btn btn-primary" download>⬇ Download PBIX</a>
             </div>
           </div>
         </div>
 
+        <!-- Spotify Dashboard with Slideshow -->
         <div class="col-md-6">
           <div class="card h-100 shadow-sm border-0">
-            <img src="assets/images/powerbi-dashboard-placeholder2.png" class="card-img-top" alt="SQL ETL Process" />
+            <div id="spotifyCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/images/SpotifyDashboardMainPage.png" class="d-block w-100" alt="Spotify Dashboard Main Page">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/SpotifyDashboardArtistPage.png" class="d-block w-100" alt="Spotify Dashboard Artist Page">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/SpotifyDashboardSongsPage.png" class="d-block w-100" alt="Spotify Dashboard Songs Page">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/SpotifyDashboardStreamsPage.png" class="d-block w-100" alt="Spotify Dashboard Streams Page">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#spotifyCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#spotifyCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
             <div class="card-body">
               <h5 class="card-title fw-bold">Spotify Music Insights Dashboard</h5>
               <p class="card-text">Power BI dashboard analyzing artist popularity, streaming trends, and playlist impact using real-world data.</p>
+              <a href="assets/pbix/Spotify Dashboard Yeriel.pbix" class="btn btn-primary" download>⬇ Download PBIX</a>
             </div>
           </div>
         </div>
@@ -86,7 +111,6 @@
       <h2 class="fw-bold mb-3">Certifications</h2>
       <ul class="fs-5">
         <li>Microsoft Certified: Azure AI Fundamentals (AI-900) — 2025</li>
-        <!-- Add more certs here -->
       </ul>
     </div>
   </section>
@@ -108,3 +132,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+<script>
+  // Initialize Bootstrap tooltips
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
